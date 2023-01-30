@@ -26,7 +26,7 @@ function singleRound(computerOption) {
                 return "user"
             };
         default:
-            return `${userSelection      }`;
+            return ` ${userSelection}  `;
     }
 }
 let cancelledByUser = false;
