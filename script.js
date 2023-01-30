@@ -26,7 +26,7 @@ function singleRound(computerOption) {
                 return "user"
             };
         default:
-            return ` ${userSelection}  `;
+            return ` ${userSelection}  `; /*added some spaces to avoid user resposes 'computer','user','draw' & 'cancelled' */
     }
 }
 let cancelledByUser = false;
